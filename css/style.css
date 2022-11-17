@@ -31,7 +31,7 @@
 .flex{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -41,6 +41,7 @@
     height: 200px;
     width: 200px;
     background-image: url(https://picsum.photos/200);
+    margin: 2px;
 }
 
 .subject{
@@ -51,4 +52,59 @@
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+/* FOOTER */
+
+.foot{
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    font-size: 30px;
+}
+
+.center-foot > div{
+    padding: 0px 10px;
+    display: inline-block;
+}
+.left-foot > div{
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+
+.fa-chevron-up{
+    font-size: 15px;
+}
+
+.text-bottom{
+    font-size: 16px;
+}
+
+.flex-foot,.center-foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-foot i{
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.end{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 20px 0 20px;
+}
+
+.right-foot{
+    background-color: rgb(99, 99, 99);
+    height: 100%;
+    position: relative;
 }
